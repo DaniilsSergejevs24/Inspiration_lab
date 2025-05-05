@@ -1,4 +1,4 @@
-# Inspiration_lab
+# Inspiration lab
 
 # 🎬 **Project Overview**
 
