@@ -1,0 +1,20 @@
+<Window x:Class="WPFAuthSystem.DashboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFAuthSystem"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Welcome to the Dashboard" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <TextBlock x:Name="WelcomeMessage" FontSize="16" HorizontalAlignment="Center" Margin="0,0,0,40"/>
+
+            <!-- Dashboard content would go here -->
+            <TextBlock Text="You have successfully logged in!" HorizontalAlignment="Center" FontSize="16" Margin="0,0,0,20"/>
+
+            <Button x:Name="LogoutButton" Content="Logout" Width="120" Height="40" Click="LogoutButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
